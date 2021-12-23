@@ -1,0 +1,16 @@
+--cpu Cortex-M4.fp
+".\out\main.o"
+".\out\timer.o"
+".\out\key.o"
+".\out\inputs.o"
+".\out\motor.o"
+".\out\stm32f4xx_gpio.o"
+".\out\stm32f4xx_rcc.o"
+".\out\stm32f4xx_tim.o"
+".\out\misc.o"
+".\out\stm32f4xx_adc.o"
+".\out\startup_stm32f40_41xxx.o"
+".\out\system_stm32f4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\out\GPIO.map" -o .\out\GPIO.axf
