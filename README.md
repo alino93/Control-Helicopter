@@ -1,5 +1,5 @@
 # MechatronicsProject
-Control a 1 DoF elicopter with STM32F discovery microcontroller board 
+Control a 1 DoF helicopter with STM32F discovery microcontroller board 
 
 <img src="https://user-images.githubusercontent.com/73147643/147195943-73bc7830-5720-43a8-b100-44f7fbe4fc99.jpg" height="400" />
 <img src="https://user-images.githubusercontent.com/73147643/147195944-27cb0ff0-1e7f-4ced-a973-315a2e4f7546.jpg" height="300" />
